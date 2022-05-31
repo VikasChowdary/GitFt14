@@ -1,0 +1,13 @@
+connector:
+  name: prom15Patch
+  identifier: prom15Patch
+  description:
+  orgIdentifier: default
+  projectIdentifier: GitFt14
+  type: Artifactory
+  spec:
+    artifactoryServerUrl: temp.com
+    auth:
+      type: Anonymous
+    delegateSelectors:
+    - acctgroup
